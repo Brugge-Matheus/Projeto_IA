@@ -1,0 +1,246 @@
+:root {
+    --cor-cabeçalho: #04233f;
+    --cor-letra-cabeçalho: #1190ff;
+    --cor-navegação: #06345d;
+    --cor-quem-somos: #05192a;
+    --cor-serviços: #061f35;
+    --cor-texto-nav: #81c4ff;
+    --cor-footer: #02111f;
+    --cor-serviços-pg2: #2097ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: var(--cor-quem-somos);
+}
+
+/*  Geral */
+
+.text-center {
+    text-align: center;
+}
+
+.text-small {
+    font-size: small;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.texto-destaque {
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* cabeçalho */
+
+.container-cabeçalho {
+    background-color: var(--cor-cabeçalho);
+    padding: 20px;
+    text-align: center;
+
+}
+
+.container-cabeçalho > h3 {
+    font-weight: bolder;
+    font-size: 2em;
+    color: var(--cor-letra-cabeçalho);
+}
+
+/* navegação */
+
+.container-nav {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-navegação);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.botao-login {
+    color: var(--cor-texto-nav);
+    text-decoration: none;
+    padding: 10px 60px; 
+    margin-left: 100px;
+    border: 1px solid #2097ff;
+    background-color: transparent;
+    border-radius: 5px;
+    transition-duration: 0.6s;
+}
+
+.botao-login:hover {
+    background-color: #2097ff;
+    color: var(--cor-footer);
+}
+
+.botoes-nav {
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--cor-texto-nav);
+    transition-duration: 0.6s;
+}
+
+.botoes-nav:hover{   
+    background-color: #1190ff3f;
+    border-radius: 10px;
+    color: white;
+}
+
+/* quem somos? */
+
+.container-quem-somos {
+    background-color:var(--cor-quem-somos);
+    overflow: auto;
+}
+
+.serviço {
+    margin: 60px auto;
+    width: 40%;
+    background-color:var(--cor-serviços);
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.txt-serviço {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: var(--cor-texto-nav);
+
+}
+
+.img-serviços {
+    margin-bottom: 20px;
+}
+
+/* contatos e serviços */
+
+.container-contatos-e-serviços {
+    background-color: var(--cor-navegação);
+    padding: 80px;
+    text-align: center;
+}
+
+.container-contatos-e-serviços-botoes {
+    padding: 60px;
+}
+
+.container-contatos-e-serviços > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+
+.container-contatos-e-serviços-botoes > a {
+    font-size: 1.2em;
+    max-width: 200px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: #1190ff solid;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 60px; 
+    margin: 10px auto;
+    transition-duration: 0.5s;
+}
+
+.container-contatos-e-serviços-botoes > a:hover {
+    background-color: #1190ff;
+    color: var(--cor-footer);
+}
+
+/* rodapé */
+
+footer {
+    background-color: var(--cor-footer);
+    color: grey;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Pagina serviços */
+
+.container-serviços {
+    background-color: var(--cor-quem-somos);
+    font-size: 1.1em;
+    overflow: auto;
+    padding: 60px;
+}
+
+.container-serviços > h1 {
+    font-family: Arial, Helvetica, sans-serif;  
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.5em ;
+}
+
+.container-serviços  li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+.article-serviços > h3 {
+    color:var(--cor-serviços-pg2);
+    padding: 20px 0;
+}
+
+.article-serviços {
+    width: 40%;
+    margin: auto;
+    
+}
+
+/* Pagina contatos */
+
+.container-contatos {
+    padding: 80px; 
+    background-color: var(--cor-quem-somos);
+}
+
+.container-contatos  h1 {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container-contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #105088;
+    background-color: #08253f;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container-contatos .contatos {
+    display: block;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #1190ff;
+    margin-bottom: 10px;
+}
+
+.container-contatos img {
+    display: block;
+    margin: 10px auto;
+}
+
+
+
